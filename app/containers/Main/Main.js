@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.scss';
 
-export default function SignUp() {
+export default function Calculator() {
 	const [value, setValue] = React.useState("");
 	const handleChange = (e) => {
 		setValue(e.target.value);
